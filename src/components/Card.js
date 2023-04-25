@@ -32,10 +32,10 @@ const Card = () => {
           >
             <img className="h-60 md:72" src={e.image} />
             <h1>
-              <span className="text-gray-500">Name</span>: {e.title}
+              <span className="text-gray-500"></span> {e.title}
             </h1>
             <h1 className="flex items-center">
-              <span className="text-gray-500 ">Rating</span>: {e.rating}
+              <span className="text-gray-500 ">Rating</span>
               <ReactStars
                 size={20}
                 half={true}
